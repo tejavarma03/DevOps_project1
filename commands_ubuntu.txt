@@ -1,0 +1,10 @@
+sudo apt update && sudo apt upgrade
+sudo apt install apache2
+which apache2
+apache -v
+sudo service apache2 start
+cd /var/www/html
+ls
+sudo rm index.html
+sudo nano index.html
+sudo service apache2 restart
